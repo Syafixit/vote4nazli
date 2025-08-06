@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kempen Mohd Nazli - Naib Presiden II IROU</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+
+    header {
+      background: linear-gradient(to right, #002b7f, #cc0000);
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #002b7f;
+      border-bottom: 2px solid #cc0000;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .biodata-img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto 1.5rem;
+      border: 4px solid #002b7f;
+    }
+
+    .manifesto ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .manifesto li {
+      background: #f0f7ff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #cc0000;
+      border-radius: 6px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #cc0000;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #a30000;
+    }
+
+    .counter {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #002b7f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #002b7f;
+      color: #ffffff;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohd Nazli bin Mohd Taib</h1>
+    <p>Calon Naib Presiden II IROU 2025</p>
+    <nav>
+      <a href="#biodata">Biodata</a>
+      <a href="#manifesto">Manifesto</a>
+      <a href="#sokongan">Sokongan</a>
+      <a href="#hubungi">Hubungi</a>
+    </nav>
+  </header>
+
+  <section id="biodata">
+    <h2>Biodata Ringkas</h2>
+    <img class="biodata-img" src="https://lh3.googleusercontent.com/pw/AP1GczPo0EuxpWDMvJqm_pcghevXre-luKe2sVlnATZpVSri7YSlWY8dwpan-cEZptsXt_uCLHKLtN_hvJCfBElbiD8vlHDoikHgue9472fYdfJG4U_WoOd_nExgkr9Ir-xBhyWCcqMY4xhoFyXM9G406PFZ=w633-h810-s-no-gm?authuser=0" alt="Gambar Mohd Nazli" />
+    <p><strong>Nama:</strong> Mohd Nazli bin Mohd Taib</p>
+    <p><strong>Jawatan Sekarang:</strong> Seksyen Audit Cukai Selain Syarikat (Penggajian)</p>
+    <p><strong>Lokaliti:</strong> Petaling Jaya</p>
+    <p><strong>Pengalaman:</strong> 30 tahun berkhidmat di LHDNM</p>
+  </section>
+
+  <section id="manifesto" class="manifesto">
+    <h2>Manifesto Ringkas</h2>
+    <ul>
+      <li><strong>Kenaikan Pangkat Saksama:</strong> Menyokong sistem fast-track & peluang pegawai senior/50+.</li>
+      <li><strong>Kebajikan & Elaun Relevan:</strong> Menyokong penambahbaikan elaun optikal, audit luar, rawatan gigi.</li>
+      <li><strong>Sokongan untuk Bukan Eksekutif:</strong> Naik taraf skim dan pembangunan kerjaya NE4–NE7.</li>
+      <li><strong>Keselesaan Tempat Kerja:</strong> Prihatin isu bangunan lama dan keselamatan warga kerja.</li>
+    </ul>
+    <a href="#sokongan" class="cta-button" onclick="tambahSokongan()">Saya Sokong Nazli!</a>
+    <div class="counter" id="counter">Jumlah sokongan: 0</div>
+  </section>
+
+  <section id="sokongan">
+    <h2>Sokongan Rakan Sekerja</h2>
+    <p>"Nazli sentiasa peka dengan suara kami. Pegawai yang komited dan mudah didekati." – Ahmad, Audit</p>
+    <p>"30 tahun pengalaman bukan sekadar angka. Beliau bukti kepimpinan berkhidmat." – Dayang, Pentadbiran</p>
+  </section>
+
+  <section id="hubungi">
+    <h2>Hubungi</h2>
+    <p>Sebarang sokongan, cadangan atau mesej untuk kempen boleh disalurkan melalui WhatsApp.</p>
+    <a href="https://wa.me/60163182381" class="cta-button">WhatsApp Encik Nazli</a>
+  </section>
+
+  <footer>
+    Kempen ini adalah inisiatif jentera pilihan raya IROU. Semua hak terpelihara &copy; 2025.
+  </footer>
+
+  <script>
+    let jumlahSokongan = localStorage.getItem('jumlahSokongan') || 0;
+    document.getElementById('counter').innerText = `Jumlah sokongan: ${jumlahSokongan}`;
+
+    function tambahSokongan() {
+      jumlahSokongan++;
+      localStorage.setItem('jumlahSokongan', jumlahSokongan);
+      document.getElementById('counter').innerText = `Jumlah sokongan: ${jumlahSokongan}`;
+    }
+  </script>
+</body>
+</html>
